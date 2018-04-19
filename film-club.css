@@ -25,20 +25,45 @@ header {
 nav  {
     display: flex;
     flex-direction: column;
-    flex: 0 1 80%
+    /* flex: 0 1 80% */
+    flex: 0 1 100%;
 }
 
-a {
-    border: 1px solid darkred;
-    
+nav a {
     text-decoration: none;
     color: black;
     text-align: center;
     flex: 0 1 100%;
     padding: 5%;
+    color: white;
 }
 
+.nav-home {
+    background-color: darkgreen;
+}
 
+.nav-calendar{
+    background-color: green;
+}
+
+.nav-join {
+    background-color: lightgreen;
+}
+
+main {
+    padding: 1rem
+}
+
+h1 {
+    font-size: 1.4rem
+}
+
+h2 {
+    background-color: darkblue;
+    color: white;
+    padding: .5rem;
+    font-size: 1rem;
+}
 /* Save for desktop styles */
 
 
@@ -74,6 +99,8 @@ a {
     padding-top: 40%;
     
 } */
+
+
 
 
 
