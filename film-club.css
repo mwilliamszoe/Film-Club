@@ -62,15 +62,15 @@ nav a {
     margin: 0;
 }
 
-h2 {
+.section-one-titles {
     background-color: darkblue;
     color: white;
     padding: .5rem;
     font-size: 1rem;
 }
 
-p {
-    font-size: .8rem;
+.section-one-txt {
+    font-size: .9rem;
     padding: 0;
     margin: 0;
 }
@@ -113,8 +113,12 @@ ul {
     margin: 1.5%;
 }
 
+.films-row-one {
+    display: flex;
+}
 
-
+.article-two p {
+}
 
 
 
