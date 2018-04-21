@@ -11,7 +11,7 @@ header {
 }
 
 .logo-box {
-    background-color: hotpink;
+    background-color: #F5005B;
     display: flex;
     /* height: 20vh; */
     width: 27%;
@@ -42,15 +42,15 @@ nav a {
 }
 
 .nav-home {
-    background-color: darkgreen;
+    background-color: #00A5BF;
 }
 
 .nav-calendar{
-    background-color: green;
+    background-color: #00B7D3;
 }
 
 .nav-join {
-    background-color: lightgreen;
+    background-color: #00D5E7;
 }
 
 .section-one {
@@ -58,15 +58,15 @@ nav a {
 }
 
 .get-involved {
-    font-size: 1.4rem;
+    font-size: 3rem;
     margin: 0;
 }
 
 .section-one-titles {
     background-color: darkblue;
     color: white;
-    padding: .5rem;
-    font-size: 1rem;
+    padding: 2%;
+    font-size: 2rem;
 }
 
 .section-one-txt {
@@ -115,15 +115,44 @@ ul {
 
 .films-row-one {
     display: flex;
+    /* margin-left: 3%; */
+    justify-content: space-around;
 }
 
-.article-two p {
+.article-two p, .article-two a {
+    font-size: 2.3rem;
+    margin-top: 3%;
 }
 
+.edison-poster {
+    width: 100%;
+}
 
+.bicycle-poster {
+    width: 38vw;
+}
 
+.bicycle-box {
+    /* margin-left: 1.5em; */
+}
 
+.article-two {
+    display: flex;
+    flex-direction: column;
+}
 
+.films-row-two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nosferatu-poster {
+    width: 35vw;
+}
+
+.metropolis-poster {
+    width: 34vw;
+}
 
 
 
