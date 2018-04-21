@@ -4,10 +4,17 @@ body {
     box-sizing: border-box;
     border: 1px solid black;
     margin: 0;
+    color: #0B1942;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    color: #00B7D3;
 }
 
 header {
     display: flex;
+    color: #FFFFFF;
 }
 
 .logo-box {
@@ -37,7 +44,7 @@ nav a {
     /* flex: 0 1 100%; */
     /* padding: 5%; */
     padding: 4%;
-    color: white;
+    color: #FFFFFF;
     font-size: 2em;
 }
 
@@ -63,8 +70,8 @@ nav a {
 }
 
 .section-one-titles {
-    background-color: darkblue;
-    color: white;
+    background-color: #0B1942;
+    color: #FFFFFF;
     padding: 2%;
     font-size: 2rem;
 }
@@ -76,13 +83,13 @@ nav a {
 }
 
 .section-two {
-    background-color: darkblue;
+    background-color: #0B1942;
     padding: 3%;
 }
 
 .up-next {
     margin: 1% 0 5% 0;
-    color: white;
+    color: #FFFFFF;
     font-size: 1.4em;
 }
 
@@ -93,6 +100,15 @@ article {
     display: flex;
     font-size: 3em
 }
+
+hr {
+    border: 0;
+    width: 130%;
+    color: black;
+    background-color: black;
+    height: 2px;
+  }
+
 .rashomon-discussion {
     margin: 3vw
 }
@@ -111,6 +127,12 @@ article p {
     
 ul {
     margin: 1.5%;
+    list-style-type: circle;
+    font-size: 2.5rem;
+}
+
+li {
+    line-height: 1.5;
 }
 
 .films-row-one {
@@ -125,11 +147,11 @@ ul {
 }
 
 .edison-poster {
-    width: 100%;
+    width: 35vw;
 }
 
 .bicycle-poster {
-    width: 38vw;
+    width: 35vw;
 }
 
 .bicycle-box {
@@ -154,7 +176,64 @@ ul {
     width: 34vw;
 }
 
+@media (min-width: 545px) {
 
+    p {
+        color: red;
+    }
+
+    header {
+        background-color:#7DDFE8;
+        height: 25vh;
+        font-size: .4rem;
+    }
+
+    .logo-box {
+        width: 20%;
+        justify-content: space-around;
+    }
+
+    .logo {
+        display: flex;
+        width: 12vw;
+        height: 22vh;
+        padding: 2%;
+    }
+
+    nav {
+        flex-direction: row; 
+    }
+
+    nav a {
+        padding-top: 30px;
+    }
+
+    .nav-home {
+        flex-grow: .07;
+    }
+
+    .nav-join {
+        flex-grow: .1;
+    }
+
+    .get-involved {
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+
+    .section-headers {
+        display: flex;
+    }
+
+    .section-one-titles {
+        font-weight: lighter;
+        font-size: 1rem;
+    }
+
+    .header {
+        width: 30%;
+        margin-right: 3%;
+}
 
 
 
