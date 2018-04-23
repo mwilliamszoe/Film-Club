@@ -76,13 +76,26 @@ nav a {
 
 table {
     border: 2px solid gray;
+    width: 100%;
+    height: 60vh;
+}
+
+tr {
+    padding: 0;
 }
 
 td {
-    padding: 5%;
+    /* padding: 5%; */
     background-color: white;
+    color: red;
+    font-size: .5rem;
+    padding-bottom: 13px;
+    /* padding: 15px; */
 }
 
+span {
+    background: #0B1942;
+}
 
 /* Home Page */
 .section-one {
