@@ -287,23 +287,126 @@ footer {
     .article-two {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+    }
+
+    .edison-poster {
+        width: 20vw;
+        padding-right: 10%;
+    }
+    
+    .bicycle-poster {
+        width: 20vw;
+        padding-right: 10%;
+    }
+    
+    .nosferatu-poster {
+        width: 20vw;
+        padding-right: 10%;
+    }
+    
+    .metropolis-poster {
+        width: 20vw;
+        padding-right: 10%;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    footer nav {
+        flex-basis: 10%;
+    }
+
+    .nav-txt {
+        padding: 30px;
+    }
+    
+    #nav-calendar {
+        padding: 15px;
+        padding-top: 30px;
+    }
+
+    #copyright {
+        padding-left: 325px;
+        align-items: center
+    }
+}
+
+/* Desktop styles */
+
+@media (min-width: 769px) {
+
+    p {
+        color: green;
+    }
+
+    .nav-txt {
+        padding-top: 50px;
+        font-size: 25px;
+    }
+
+    #nav-calendar {
+        padding-top: 50px;
+    }
+
+    .desktop-div {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    hr {
+        width: 100%
+    }
+
+    ul {
+        font-size:1rem;
+    }
+
+    .section-one-titles {
+        font-size: 1.5rem;
+    }
+
+    .section-one p {
+        font-size: 1.3rem;
+    }
+
+    .section-two p {
+        font-size: 1rem;
+    }
+
+    .section-two a {
+        font-size: 1rem;
+    }
+
+    .article-two {
+        margin-left: 2%;
+    }
+
+    .article-one a {
+        font-size: 1.5rem;
+    }
+
+    .article-one p {
+        font-size: 1rem;
+    }
+
+    .rashomon-poster {
+        width: 50%;
     }
 
     .films-row-one {
+        display: flex;
+        justify-content: space-around;
     }
-
-    .films-row-two {
-    }
-
-    .edison-box {
-        margin: 0;
+    
+    .article-two p, .article-two a {
+        margin-top: 3%;
     }
 
     .edison-poster {
         width: 20vw;
     }
-
+    
     .bicycle-poster {
         width: 20vw;
     }
@@ -311,10 +414,26 @@ footer {
     .nosferatu-poster {
         width: 20vw;
     }
-
+    
     .metropolis-poster {
         width: 20vw;
     }
+    
+    .article-two {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .films-row-two {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #copyright {
+        font-size: 1.5rem;
+        margin-left: 100px;
+    }
+   
 
 }
 
