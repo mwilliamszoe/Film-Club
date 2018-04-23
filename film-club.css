@@ -1,4 +1,4 @@
-/* mobile styles */
+/* MOBILE STYLES */
 
 body {
     box-sizing: border-box;
@@ -28,7 +28,6 @@ header {
 .logo { 
     display: flex;
     width: 75%;
- 
 }
 
 nav  {
@@ -58,6 +57,34 @@ nav a {
     background-color: #00D5E7;
 }
 
+/* Calendar Page */
+.meetup-calendar {
+    margin-left: 5%;
+}
+
+.calendar-section {
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #0B1942;
+}
+
+#june {
+    font-weight: lighter;
+    padding: 2%;
+    margin: 0;
+}
+
+table {
+    border: 2px solid gray;
+}
+
+td {
+    padding: 5%;
+    background-color: white;
+}
+
+
+/* Home Page */
 .section-one {
     padding: 5%;
 }
@@ -195,9 +222,7 @@ footer {
 /* Tablet styles */
 
 @media (min-width: 545px) {
-  p {
-    color: red;
-    }  
+ 
 
     header {
         background-color:#7DDFE8;
