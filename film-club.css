@@ -62,6 +62,10 @@ nav a {
     margin-left: 5%;
 }
 
+h1 {
+    font-weight: lighter;
+}
+
 .calendar-section {
     margin: 0;
     color: #FFFFFF;
@@ -75,26 +79,25 @@ nav a {
 }
 
 table {
-    border: 2px solid gray;
     width: 100%;
-    height: 60vh;
+    height: 90vh;
 }
 
 tr {
-    padding: 0;
 }
 
 td {
-    /* padding: 5%; */
     background-color: white;
-    color: red;
+    color:#FFFFFF;
     font-size: .5rem;
     padding-bottom: 13px;
-    /* padding: 15px; */
+    padding-left: 0;
+    border: none;
 }
 
 span {
     background: #0B1942;
+    padding: 5px;
 }
 
 /* Home Page */
