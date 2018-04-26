@@ -21,30 +21,47 @@
             <a id="nav-join" class="nav-txt" href="#">Join</a>
         </nav>
     </header>
+    <h1>Join Film Club</h1>
     <div id="profile">
-        <label for="file" class="profile-pic">profile picture</label>
+        <label for="file" class="profile-txt">profile picture</label>
         <br>
         <input class="file" type="file" id="file" name="file">
-        <img src="" alt="Blank Profile Picture">
+        <img id="profile-pic" src="images/profile-pic.png" alt="Blank Profile Picture">
     </div>
     
     <form id="personal-info">
         <label for="name">name</label>
         <br>
         <input class="personal" type="text" id="name" name="name" required>
-        <br>
+        <br><br>
         <label for="email">email</label>
         <br>
         <input class="personal" type="email" id="email" name="email" required>
-        <br>
+        <br><br>
         <label for="password">password</label>
         <br>
         <input class="personal" type="password" id="password" name="password" required>
-        <br>
+        <br><br>
         <label for="password">confirm password</label>
         <br>
         <input class="personal" type="password" id="password" name="password" required>
     </form>
+
+    <form id="genres">
+        <p>Which genres are youu intersted in?</p>
+        <input type="checkbox" value="action"> action<br>
+        <input type="checkbox" alue="adventure"> adventure<br>
+        <input type="checkbox" value="comedy"> comedy<br>
+        <input type="checkbox" value="drama"> drama<br>
+        <input type="checkbox" value="fantasy"> fantasy<br>
+        <input type="checkbox" value="historical"> historical<br>
+        <input type="checkbox" value="horror"> horror<br>
+        <input type="checkbox" value="mystery"> mystery<br>
+        <input type="checkbox" value="romance"> romance<br>
+        <input type="checkbox" value="science fiction"> science fiction<br>
+        <input type="checkbox" value="western"> western<br>
+    </form>
+
     <footer>
         <nav>
             <a id="nav-home" class="nav-txt" href="film-club-home.html">Home</a>

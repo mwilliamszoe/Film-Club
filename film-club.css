@@ -226,6 +226,32 @@ li {
     width: 34vw;
 }
 
+/* Join Page */
+
+h1 {
+    margin-left: 5%;
+}
+
+#profile {
+    margin: 5%;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 75%;
+    margin: 5% 12%;
+}
+
+ #personal-info{
+    margin: 5%;
+}
+
+input.personal {
+    width: 100%;
+}
+
+/* Footer */
+
 footer {
     background-color: #7DDFE8 
 }
@@ -282,7 +308,7 @@ footer {
 /* Home page */
 
     .get-involved {
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: lighter;
     }
 
