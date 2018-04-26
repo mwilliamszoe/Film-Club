@@ -1,5 +1,6 @@
 /* MOBILE STYLES */
 
+/* Nav and default styles */
 body {
     box-sizing: border-box;
     border: 1px solid black;
@@ -16,6 +17,7 @@ header {
     display: flex;
     color: #FFFFFF;
     background-color: #7DDFE8;
+   
 }
 
 .logo-box {
@@ -83,21 +85,22 @@ table {
     height: 90vh;
 }
 
-tr {
+.pink {
+    background-color:#F5005B;
 }
 
 td {
     background-color: white;
     color:#FFFFFF;
     font-size: .5rem;
-    padding-bottom: 13px;
+    padding-bottom: 30px;
     padding-left: 0;
     border: none;
 }
 
 span {
     background: #0B1942;
-    padding: 5px;
+    padding: 6px;
 }
 
 /* Home Page */
@@ -239,6 +242,7 @@ footer {
 
 @media (min-width: 545px) {
  
+/* Navigation */
 
     header {
         background-color:#7DDFE8;
@@ -246,18 +250,17 @@ footer {
 
     .logo-box {
         justify-content: space-around;
-        flex-basis: 15%;
+        flex-basis: 10%;
     }
 
     .logo {
-        width: 75%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        width: 80%;
     }
 
     nav {
         flex-direction: row;
         font-weight: bold; 
+        flex: 0;
     }
 
     .nav-txt {
@@ -275,6 +278,8 @@ footer {
     #nav-join {
         flex-grow: .14;
     }
+
+/* Home page */
 
     .get-involved {
         font-size: 2rem;
@@ -350,6 +355,41 @@ footer {
         padding-right: 10%;
     }
 
+     /* Calendar */
+
+    .calendar-section {
+        padding: 4% 1% 4% 1%;
+    }
+
+     table {
+         margin: 1%;
+         height: 120vh;
+     }
+
+     h1 {
+         font-size: 2rem;
+     }
+
+     #june {
+         font-size: 2rem;
+         padding: 0 0 3% 4%;
+     }
+     
+     span {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    td {
+        padding-bottom: 60px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Footer */
+
     footer {
         display: flex;
     }
@@ -377,9 +417,7 @@ footer {
 
 @media (min-width: 769px) {
 
-    p {
-        color: green;
-    }
+    /* Navigation */
 
     .nav-txt {
         padding-top: 50px;
@@ -389,6 +427,8 @@ footer {
     #nav-calendar {
         padding-top: 50px;
     }
+
+    /* Homepage */
 
     .desktop-div {
         display: flex;
@@ -475,7 +515,36 @@ footer {
         margin-left: 100px;
     }
    
+    /* Calendar Page */
 
+    .meetup-calendar{
+        margin: 4%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    .calendar-section {
+        padding-top: 3%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+
+    td {
+        padding-bottom: 90px;
+    }
+
+    #june {
+        padding: 0 3% 2% 3%;
+        font-size: 3rem;
+    }
 }
 
     
