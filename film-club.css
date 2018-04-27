@@ -250,6 +250,14 @@ input.personal {
     width: 100%;
 }
 
+#genres {
+    margin: 2%;
+}
+
+#txt-box {
+    margin: 2%
+}
+
 /* Footer */
 
 footer {

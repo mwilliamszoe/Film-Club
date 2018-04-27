@@ -22,6 +22,7 @@
         </nav>
     </header>
     <h1>Join Film Club</h1>
+    <form>
     <div id="profile">
         <label for="file" class="profile-txt">profile picture</label>
         <br>
@@ -29,7 +30,7 @@
         <img id="profile-pic" src="images/profile-pic.png" alt="Blank Profile Picture">
     </div>
     
-    <form id="personal-info">
+    <div id="personal-info">
         <label for="name">name</label>
         <br>
         <input class="personal" type="text" id="name" name="name" required>
@@ -45,10 +46,10 @@
         <label for="password">confirm password</label>
         <br>
         <input class="personal" type="password" id="password" name="password" required>
-    </form>
+    </div>
 
-    <form id="genres">
-        <p>Which genres are youu intersted in?</p>
+    <div id="genres">
+        <p>Which genres are you intersted in?</p>
         <input type="checkbox" value="action"> action<br>
         <input type="checkbox" alue="adventure"> adventure<br>
         <input type="checkbox" value="comedy"> comedy<br>
@@ -60,7 +61,14 @@
         <input type="checkbox" value="romance"> romance<br>
         <input type="checkbox" value="science fiction"> science fiction<br>
         <input type="checkbox" value="western"> western<br>
+    </div>
+
+    <div id="txt-box">
+        <p>Additional Information</p>
+        <textarea rows="3" cols="37"></textarea>
+    </div>
     </form>
+
 
     <footer>
         <nav>
