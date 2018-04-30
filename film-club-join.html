@@ -22,53 +22,54 @@
         </nav>
     </header>
     <h1>Join Film Club</h1>
+
     <form>
-    <div id="profile">
-        <label for="file" class="profile-txt">profile picture</label>
-        <br>
-        <input class="file" type="file" id="file" name="file">
-        <img id="profile-pic" src="images/profile-pic.png" alt="Blank Profile Picture">
-    </div>
+        <div id="picbox-nametxt">
+            <div id="profile">
+                <label for="file" class="profile-txt">profile picture</label>
+                <br>
+                <input class="file" type="file" id="file" name="file">
+                <img id="profile-pic" src="images/profile-pic.png" alt="Blank Profile Picture">
+            </div>
     
-    <div id="personal-info">
-        <label for="name">name</label>
-        <br>
-        <input class="personal" type="text" id="name" name="name" required>
-        <br><br>
-        <label for="email">email</label>
-        <br>
-        <input class="personal" type="email" id="email" name="email" required>
-        <br><br>
-        <label for="password">password</label>
-        <br>
-        <input class="personal" type="password" id="password" name="password" required>
-        <br><br>
-        <label for="password">confirm password</label>
-        <br>
-        <input class="personal" type="password" id="password" name="password" required>
-    </div>
+            <div id="personal-info">
+                <div class="name-email">
+                    <label for="name">name</label>
+                    <input class="personal" type="text" id="name" name="name" required>
+                    <label for="email">email</label>
+                    <input class="personal" type="email" id="email" name="email" required>
+                </div>
+                <div class="password">
+                    <label for="password">password</label>
+                    <input class="personal" type="password" id="password" name="password" required>
+                    <label for="password">confirm password</label>
+                    <input class="personal" type="password" id="password" name="password" required>
+                </div>
+            </div>
+        </div>
+        <p class="genres">Which genres are you intersted in?</p>
+        <div class="checkboxes">
+            <div class="checkbox-txt"><input type="checkbox"> action</input></div>
+            <div class="checkbox-txt"><input type="checkbox"> adventure</input></div>
+            <div class="checkbox-txt"><input type="checkbox"> comedy</input></div>
+            <div class="checkbox-txt"><input type="checkbox"> drama</input></div>
+            <div class="checkbox-txt"><input type="checkbox"> fantasy</input></div>
+            <div class="checkbox-txt"><input type="checkbox"> historical</input></div>
+            <div class="checkbox-txt"><input type="checkbox"> horror</input></div>
+            <div class="checkbox-txt"><input type="checkbox"> mystery</input></div>
+            <div class="checkbox-txt"><input type="checkbox"> romance</input></div>
+            <div class="checkbox-txt"><input type="checkbox"> science-fiction</input></div>
+            <div class="checkbox-txt"><input type="checkbox">western</input></div>
+        </div>
 
-    <div id="genres">
-        <p>Which genres are you intersted in?</p>
-        <input type="checkbox" value="action"> action<br>
-        <input type="checkbox" alue="adventure"> adventure<br>
-        <input type="checkbox" value="comedy"> comedy<br>
-        <input type="checkbox" value="drama"> drama<br>
-        <input type="checkbox" value="fantasy"> fantasy<br>
-        <input type="checkbox" value="historical"> historical<br>
-        <input type="checkbox" value="horror"> horror<br>
-        <input type="checkbox" value="mystery"> mystery<br>
-        <input type="checkbox" value="romance"> romance<br>
-        <input type="checkbox" value="science fiction"> science fiction<br>
-        <input type="checkbox" value="western"> western<br>
-    </div>
+        <div id="txt-box">
+            <p>Additional Information</p>
+            <textarea rows="3" cols="37"></textarea>
+        </div>
 
-    <div id="txt-box">
-        <p>Additional Information</p>
-        <textarea rows="3" cols="37"></textarea>
-    </div>
+    <button type="submit" value="Submit">Join Film club</button>
+
     </form>
-
 
     <footer>
         <nav>

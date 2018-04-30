@@ -243,19 +243,46 @@ h1 {
 }
 
  #personal-info{
-    margin: 5%;
+    margin: 4%;
 }
 
 input.personal {
-    width: 100%;
+    width: 99%;
 }
 
-#genres {
+.genres {
+    margin: 5% 5% 0 5%;
+}
+
+div.checkboxes {
     margin: 2%;
 }
 
 #txt-box {
-    margin: 2%
+    margin: 1.5%;
+}
+
+textarea {
+    width: 99%;
+}
+
+div.checkboxes {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.checkbox-txt  {
+    flex-basis: 90%;
+}
+
+button {
+    margin: 0 2% 10% 2%;
+    background-color: #F5005B ;
+    padding: 3%;
+    border: none;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size: .8rem;
 }
 
 /* Footer */
@@ -422,6 +449,44 @@ footer {
         font-size: 1.5rem;
     }
 
+    /* Join Page */
+
+    #picbox-nametxt {
+        display: flex;
+    }
+
+    #profile-pic {
+        width: 60%;
+    }
+
+    #profile {
+        margin: 1% 0 0 10%;
+    }
+
+    #personal-info {
+        flex-basis: 60%;
+        margin: 3% 20% 0 0;
+    }
+
+    input.personal { 
+        width: 99%;
+        margin: 1%;
+    }
+
+    p.genres {
+        margin-top: 0;
+    }
+
+    div.checkboxes {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    div.checkbox-txt {
+        display: flex;
+        flex-basis: 50%;
+    }
+
     /* Footer */
 
     footer {
@@ -578,6 +643,39 @@ footer {
     #june {
         padding: 0 3% 2% 3%;
         font-size: 3rem;
+    }
+
+    /* Join Page */
+
+    #picbox-nametxt {}
+
+    #profile {
+        margin: 2% 2% 3% 1%;
+        flex-basis: 60%;
+    }
+
+    #personal-info {
+        display: flex;
+        margin: 2%;
+    }
+
+    #profile-pic {
+        padding: 0;
+        margin: 5%;
+    }
+
+    .name-email {
+        margin-left: 3%;
+    }
+    
+    div.checkbox-txt {
+        display: flex;
+        flex-basis: 30%;
+    }
+
+    button {
+        padding: 2.5%;
+        font-weight: bolder;
     }
 }
 
